@@ -4,9 +4,7 @@
 
 print("Our mission is to escape the Dark forest!")
 print("One wrong turn and.....")
-
-print("Your mission is to escape the Dark forest!")
-print("One wrong turn and you'll be stuck in the Dark forest forever!")
+print("We should get out of here!")
 
 health = 15
 decrease_health_major = 5
