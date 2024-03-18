@@ -68,12 +68,18 @@ if health > 0:
     print("\nYou continue walking with a health of", health)
     print("You then see a road in the distance, with a very nice car with nobody near it.")
     print("However, there is a cop nearby and a volvo semi coming in your direction.")
-    Road_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No.")
+    Road_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No:")
     if Road_choice == "y":
       print("You cross the road, barely missed the truck, get near the car and find the keys lying on the ground.")
       print("Do you pick up the keys?")
-    Keys_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No.")
+    Keys_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No:")
     if Keys_choice == "y":
       print("You grab the keys, get in the car, and drive off after escaping the cop.")
-      print("The car turned out to be just a car that was forgotten, and the cop was there for another reason not involving the car, therefore it is now yours.")
-    if Keys_choice ==
+      print("The car turned out to be just a car that was forgotten, and the cop was there for another reason not involving the car, therefore it is now yours and be glad there is, since there is a thunderstorm outside.")
+    if Keys_choice == "N":
+      print("You chose not to grab the keys, then suddenly; there is a thunderstorm and you get struck by lightning without protection.")
+
+else: print("Sorry, you did not escape the Dark forest!")
+if Road_choice == "n":
+    print("You decide not to cross to get to the car, then the bear shows up and attacks you.")
+    print("You got attacked by a bear and lost", decrease_health_minor,"health. Your health is now",health)
