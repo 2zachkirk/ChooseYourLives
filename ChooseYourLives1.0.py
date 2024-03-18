@@ -5,8 +5,8 @@
 print("Our mission is to escape the Dark forest!")
 print("One wrong turn and.....")
 
-print("Your mission is to escape the Dark Woods!")
-print("One wrong turn and you'll be stuck in the Dark Woods forever!")
+print("Your mission is to escape the Dark forest!")
+print("One wrong turn and you'll be stuck in the Dark forest forever!")
 
 health = 15
 decrease_health_major = 5
@@ -44,7 +44,7 @@ if health > 0:
         health -= decrease_health_minor
         print("You chose not to drink the water and lost", decrease_health_minor, "health. Your health is now", health)
 else:
-    print("Sorry, you did not escape the Dark Woods!")
+    print("Sorry, you did not escape the Dark forest!")
 
 # Cave Scenario
 if health > 0:
@@ -60,9 +60,20 @@ if health > 0:
         print("As you turn to leave, the bear comes out and attacks you.")
         # Logic for the bear attack goes here
 else:
-    print("Sorry, you did not escape the Dark Woods!")
+    print("Sorry, you did not escape the Dark forest!")
 
 
-
-
-
+# Road Scenario
+if health > 0:
+    print("\nYou continue walking with a health of", health)
+    print("You then see a road in the distance, with a very nice car with nobody near it.")
+    print("However, there is a cop nearby and a volvo semi coming in your direction.")
+    Road_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No.")
+    if Road_choice == "y":
+      print("You cross the road, barely missed the truck, get near the car and find the keys lying on the ground.")
+      print("Do you pick up the keys?")
+    Keys_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No.")
+    if Keys_choice == "y":
+      print("You grab the keys, get in the car, and drive off after escaping the cop.")
+      print("The car turned out to be just a car that was forgotten, and the cop was there for another reason not involving the car, therefore it is now yours.")
+    if Keys_choice ==
