@@ -81,3 +81,4 @@ else: print("Sorry, you did not escape the Dark forest!")
 if Road_choice == "n":
     print("You decide not to cross to get to the car, then the bear shows up and attacks you.")
     print("You got attacked by a bear and lost", decrease_health_minor,"health. Your health is now",health)
+else: print("Sorry, you did not escape the Dark forest!")
