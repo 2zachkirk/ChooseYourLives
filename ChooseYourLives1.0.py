@@ -76,12 +76,61 @@ if health > 0:
       print("The car turned out to be just a car that was forgotten, the cop was there for another reason not involving the car, therefore it is now yours.")
 
     print("We are so close for escaping, Then we can ride off into the sunset; and off to the Bahamas we go!")
+    print("I know that we should probally escape, but how about a quick stop at the lake?")
+# Lake Decision
+    Lake_Choice = input_yes_or_no("Type 'y' for yes or 'n' for No:")
+    if Lake_Choice == "y":
+        print("You said to me sure, and we are now on our way to the lake where something unexpected is waiting.")
 
-    print("")
+        print("We then arrive at the lake, where I begin to take pictures of fish underwater.")
+
+        print("I then take a photo of a truck and said we are good to go now, when suddenly...")
+
+        print("ROAR!")
+        print("What the---!")
+        print("An angry crocodile crosses our path and it's enormous and with bad attitude!")
+        print("Most likely has family issues.")
+        print("ROAR!")
+        print("The crocodile begins chewing up our car and its tires, we now cant go anywhere!")
+        print("We could go out an fight the gator, but we will probally be killed.")
+        print("Or, we can make a run for it; but that may not end well either.")
+        print("What should we do?!")
+# Crocodile Issues
+    Crocodile_Choice = input_yes_or_no("Type 'y' for yes or 'n' for No:")
+    if Crocodile_Choice == "y":
+        print("What?! Are you crazy?! Attacking a rogue alligator?")
+        print("Well, I mean I got something crocodiles really hate, Crocodile Spray!")
+        print("Lets spritz this man!")
+        print("The crocodile calls on a few of its mates and they are closing in!")
+        print("I spray the crocodile spray, the gators are in love with the spray!")
+        print("UGH! This stuff smells like feet!")
+
+        print("You: Look!")
+
+        print("The gators are bowing to you and me....")
+        print("What the heck is happening?")
+
+        print("The gators are apparently now our servants!")
+
+        print("The gators lead us out of the forest and we are SAFE AT LAST!")
+
+        print("We arrive safely back on home, where the gators are warming up to our house quick and began being our butlers.")
+
+        print("So our story is over, we are safe but....")
+
+        print("Where's the root beer? There was like seven bottles!")
+
+        print("A gator walks by balancing a root beer on its nose and flips it in the air and drinks it.")
+
+        print("bruh, It just goes to show you: Never hire gators that love root beer.")
+
+print("The END.")
 
 
 
-    if Keys_choice == "n":
+
+
+if Keys_choice == "n":
       print("You chose not to grab the keys, then suddenly; there is a thunderstorm and you get struck by lightning.")
 
 if Road_choice == "n":
