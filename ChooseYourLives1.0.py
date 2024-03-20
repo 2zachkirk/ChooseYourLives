@@ -51,7 +51,7 @@ if health > 0:
     cave_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No: ")
     if cave_choice == "y":
         print("As you enter the cave, you see a bear attacking a woman.")
-        print("You decide to intervene.")
+        print("You decide to intervene and defeated the bear and a kiss from the woman.")
         # Logic for the bear fight goes here
     else:
         print("You chose not to enter the cave.")
@@ -73,12 +73,19 @@ if health > 0:
     Keys_choice = input_yes_or_no("Type 'Y' for Yes or 'N' for No:")
     if Keys_choice == "y":
       print("You grab the keys, get in the car, and drive off after escaping the cop.")
-      print("The car turned out to be just a car that was forgotten, and the cop was there for another reason not involving the car, therefore it is now yours and be glad there is, since there is a thunderstorm outside.")
-    if Keys_choice == "N":
-      print("You chose not to grab the keys, then suddenly; there is a thunderstorm and you get struck by lightning without protection.")
+      print("The car turned out to be just a car that was forgotten, the cop was there for another reason not involving the car, therefore it is now yours.")
 
-else: print("Sorry, you did not escape the Dark forest!")
+    print("We are so close for escaping, Then we can ride off into the sunset; and off to the Bahamas we go!")
+
+    print("")
+
+
+
+    if Keys_choice == "n":
+      print("You chose not to grab the keys, then suddenly; there is a thunderstorm and you get struck by lightning.")
+
 if Road_choice == "n":
-    print("You decide not to cross to get to the car, then the bear shows up and attacks you.")
-    print("You got attacked by a bear and lost", decrease_health_minor,"health. Your health is now",health)
+    print("You decide not to cross to get to the car, then the bear shows up for revenge and attacks you.")
+    print("You got attacked by a bear and lost", decrease_health_minor,"health. Your health is now", health)
 else: print("Sorry, you did not escape the Dark forest!")
+
