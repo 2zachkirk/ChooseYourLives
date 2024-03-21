@@ -162,12 +162,12 @@ if health > 0:
         print("The gators cheer and roar.")
         print("HAHAHAHAHAHA!!!!!! ROAR!!!")
 
-    print("To be continued?")
-    sleep(5)
-    print("Gator: Get me some root beer will ya, and you have seen nothing! ROAR!")
+        print("To be continued?")
+        sleep(5)
+        print("Gator: Get me some root beer will ya, and you have seen nothing! ROAR!")
 
 
-print("The END?")
+        print("The END?")
 
 
 if Crocodile_Choice == 'n':
