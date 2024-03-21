@@ -151,10 +151,23 @@ if health > 0:
         print("A gator walks by balancing a root beer on its nose and flips it in the air and drinks it.")
         sleep(2.5)
         print("bruh, It just goes to show you: Never hire gators that gorge root beer.")
+        print("Epilouge")
+        sleep(10)
+        print("Crocodiles all get together while we are asleep, then to surprise one speaks!")
+        print("Fellow Crocodile brothers, the time has come!")
+        print("No more will we be murdered and disrespected and no more will we be ridiculed!")
+        print("All the gators cheer.")
+        sleep(5)
+        print("Prepare to say goodbye to you lives humans and LONG LIVE THE GATORS!")
+        print("The gators cheer and roar.")
+        print("HAHAHAHAHAHA!!!!!! ROAR!!!")
+
+    print("To be continued?")
+    sleep(5)
+    print("Gator: Get me some root beer will ya, and you have seen nothing! ROAR!")
 
 
-
-print("The END.")
+print("The END?")
 
 
 if Crocodile_Choice == 'n':
